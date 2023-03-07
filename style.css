@@ -55,7 +55,8 @@ p {
   font-size: 1.125rem;
   text-decoration: none;
   font-weight: 500;
-  display: inline-block;
+  display:block;
+  text-align:center;
   padding: 0.5em 1em;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
@@ -108,3 +109,7 @@ footer {
     width: 48.8%;
   }
 }
+@media (min-width:768px){
+  .btn{
+       display:inline-block;
+  }
