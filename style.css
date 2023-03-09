@@ -98,7 +98,7 @@ footer {
   display: inline-block;
   padding-top: 0em;
 }
-nav ul {
+ ul {
    list-style:none;
 }
 nav a {
@@ -136,5 +136,13 @@ nav a {
   nav ul {
     display:flex;
     justify-content:flex-end;
+  }
+}
+@media (max-width: 768px) {
+  li:not(:last-child) {
+    border-bottom: 1px dotted whitesmoke;
+  }
+  header .container {
+    text-align: center;
   }
 }
