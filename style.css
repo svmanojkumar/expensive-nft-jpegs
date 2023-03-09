@@ -98,6 +98,16 @@ footer {
   display: inline-block;
   padding-top: 0em;
 }
+nav ul {
+   list-style:none;
+}
+nav a {
+  text-decration:none;
+  color:#ffffff;
+  font-size:1.25rem;
+  display:block;
+  padding: 1em 0 ;
+}
 
 @media (min-width: 480px) {
   .images-group {
@@ -118,5 +128,13 @@ footer {
   }
   h2{
      font-size:1.75rem;
+  }
+  header .container {
+    display:flex;
+    justify-content:space-between;
+  }
+  nav ul {
+    display:flex;
+    justify-content:flex-end;
   }
 }
